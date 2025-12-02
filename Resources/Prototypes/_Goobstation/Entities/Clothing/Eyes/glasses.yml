@@ -138,7 +138,7 @@
     sprite: _Goobstation/Clothing/Eyes/Glasses/medichem.rsi
   - type: SolutionScanner
   - type: Construction
-    graph: GogglesMedChem
+    graph: GogglesMedChemHUD
     node: gogglesMedChem
   - type: Tag
     tags:
@@ -157,7 +157,7 @@
     sprite: _Goobstation/Clothing/Eyes/Glasses/medichemglasses.rsi
   - type: SolutionScanner
   - type: Construction
-    graph: GlassesMedChem
+    graph: GlassesMedChemHUD
     node: glassesMedChem
   - type: Tag
     tags:
