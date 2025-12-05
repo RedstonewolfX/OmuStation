@@ -48,6 +48,8 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineer
     shoes: ClothingShoesColorWhite
+    eyes: ClothingEyesGlassesMeson
+    gloves: ClothingHandsGlovesColorYellow
     head: ClothingHeadHatBeretEngineering
     neck: ClothingNeckCloakCe
     id: VisitorPDA
@@ -62,6 +64,8 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineerTurtle
     shoes: ClothingShoesColorWhite
+    eyes: ClothingEyesGlassesMeson
+    gloves: ClothingHandsGlovesCombat
     head: ClothingHeadHatBeretEngineering
     neck: ClothingNeckMantleCE
     id: VisitorPDA
@@ -449,7 +453,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitAtmos
     shoes: ClothingShoesColorWhite
-    gloves: ClothingHandsGlovesFingerlessInsulated
+    gloves: ClothingHandsGlovesColorYellow
     head: ClothingHeadHelmetFire
     id: VisitorPDA
     back: ClothingBackpackDuffelAtmospherics
@@ -466,7 +470,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitAtmosCasual
     shoes: ClothingShoesColorWhite
-    gloves: ClothingHandsGlovesColorYellow
+    gloves: ClothingHandsGlovesCombat
     head: ClothingHeadHatHardhatYellow
     neck: ClothingNeckScarfStripedLightBlue
     id: VisitorPDA
