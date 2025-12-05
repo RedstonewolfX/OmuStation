@@ -1291,3 +1291,9 @@ Entries:
       message: Disablers do ion damage now, heal IPCs with cables
   id: 154
   time: '2025-12-02T17:38:23.0000000+00:00'
+- author: Richard Blonski
+  changes:
+    - type: Remove
+      message: Removed CQC Neck-snapping
+  id: 155
+  time: '2025-12-04T21:12:41.0000000+00:00'
