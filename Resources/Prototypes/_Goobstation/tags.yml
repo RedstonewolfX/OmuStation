@@ -662,12 +662,6 @@
   id: HudMedicalDiagnostic
 
 - type: Tag
-  id: HudChemistry
-
-- type: Tag
-  id: HudMedichem
-
-- type: Tag
   id: ReverseBearTrapKey
 
 - type: Tag
