@@ -22,7 +22,7 @@
             - tag: HudMedichem
               name: construction-graph-tag-medichem-hud
               icon:
-                sprite: _Goobstation/Clothing/Eyes/Glasses/medichem.rsi
+                sprite: _Omu/Clothing/Eyes/Glasses/medichem.rsi
                 state: icon
               doAfter: 5
             - material: Cable
