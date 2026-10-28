@@ -1,0 +1,120 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: marking
+  id: LizardTailBig
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: flat
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: underside
+
+- type: marking
+  id: LizardTailBigPattern
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: patterned
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: lattice
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: underside
+
+- type: marking
+  id: LizardTailBigRidged
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: flat
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: ridged
+
+- type: marking
+  id: LizardTailBigPatternRidged
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: patterned
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: lattice
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: ridged
+
+- type: marking
+  id: LizardTailBigFrilled
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: frill
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: flat
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: underside
+
+- type: marking
+  id: LizardTailBigTufted
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: tuft
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: flat
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: underside
+
+- type: marking
+  id: LizardTailBigPatternTufted
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: tuft
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: patterned
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: lattice
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: underside
+
+- type: marking
+  id: LizardTailBigFluffy
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: tuft
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: frill
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: flat
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: underside
+
+- type: marking
+  id: LizardTailBigFluffyRidged
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: tuft
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: frill
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: flat
+  - sprite: _Omu/Mobs/Customization/Reptilian/serpent_tail.rsi
+    state: ridged
