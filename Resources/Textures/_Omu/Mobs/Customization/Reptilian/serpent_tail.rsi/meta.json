@@ -8,31 +8,31 @@
   },
   "states": [
     {
-      "name": "flat_behind",
+      "name": "flat",
       "directions": 4
     },
     {
-      "name": "patterned_behind",
+      "name": "patterned",
       "directions": 4
     },
     {
-      "name": "lattice_behind",
+      "name": "lattice",
       "directions": 4
     },
     {
-      "name": "underside_behind",
+      "name": "underside",
       "directions": 4
     },
     {
-      "name": "ridged_behind",
+      "name": "ridged",
       "directions": 4
     },
     {
-      "name": "frill_behind",
+      "name": "frill",
       "directions": 4
     },
     {
-      "name": "tuft_behind",
+      "name": "tuft",
       "directions": 4
     },
     {
