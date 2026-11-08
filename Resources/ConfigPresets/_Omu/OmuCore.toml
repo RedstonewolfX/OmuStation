@@ -30,7 +30,7 @@ mode = 1 # Requires authentication from SS14 API
 advertise = 1
 advertise_interval = 30
 tags = "lang:en,rp:med,region:am_n_e" # You can find a list of all tags @ https://docs.spacestation14.com/en/robust-toolbox/server-http-api.html#standard-tags
-hub_urls = "https://central.spacestation14.io/hub/" # https://hub.fallback.spacestation14.com/ # https://hub.singularity14.co.uk/ is down and does not seem to be up soon anymore.
+hub_urls = "https://central.spacestation14.io/hub/, https://hub.spacestation14.com/" # https://hub.fallback.spacestation14.com/ # https://hub.singularity14.co.uk/ is down and does not seem to be up soon anymore.
 use_dynamic_hostname = true # File replacements found in `motd.ftl` in datasets under _Goobstation
 
 [game]
@@ -49,7 +49,8 @@ panic_bunker.show_reason = true
 panic_bunker.whitelisted_can_bypass = true # Anyone that is whitelisted should be able to ignore; albeit this shouldn't be a problem anyway?
 # Admin Panic Bunker Interaction
 panic_bunker.count_deadminned_admins = false # We may change this later, but this is default.
-panic_bunker.disable_with_admins = true
+panic_bunker.disable_with_admins = false # Do not disable panic bunker; TEMPORARY MEASURE until security fixes are in
+panic_bunker.enabled = true # Panic bunker enabled by default; TEMPORARY MEASURE until security fixes are in
 panic_bunker.enable_without_admins = true
 
 # IPIntel Information
@@ -145,6 +146,7 @@ reset_mind = false
 [ic]
 flavor_text = true # Default is false
 flavor_text_length = 1024 # Raised from 512
+id_job_length = 36 # Raised from 30
 punctuation = true
 
 [ooc]
@@ -154,5 +156,5 @@ enable_during_round = false # Default is false, changed back to default on 31/03
 wounding_multiplier = 1 # from 2.5
 
 [playtest]
-explosion_damage_modifier = 0.65 # from 1
+explosion_damage_modifier = 0.7 # from 1
 

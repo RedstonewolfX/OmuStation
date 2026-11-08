@@ -3,7 +3,7 @@
 - type: entity
   name: space carp
   id: BaseMobCarp
-  parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat ]
+  parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat, DVNodeCrawler ] # Omu, add DVNodeCrawler
   description: It's a space carp.
   abstract: true
   components:
@@ -101,7 +101,7 @@
       color: "#808080"
       activateSound: null
       deactivateSound: null
-    - type: VentCrawler # Goobstation
+    #- type: VentCrawler # Goobstation # Omu, use nodecrawler
     - type: Fauna # Lavaland Change
 
 - type: entity
@@ -212,6 +212,17 @@
       defaultChannel: Dragonmind
       channels:
       - Dragonmind # Goobstation End
+# omu start
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 40 # gibs on death
+        behaviors:
+        - !type:GibBehavior
+         gibContents: Skip 
+         recursive: false
+# omu end
 
 - type: entity
   id: MobCarpDungeon
